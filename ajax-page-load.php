@@ -18,7 +18,7 @@ function asdotrack_skin_scripts() {
 	wp_localize_script( 'ajpl-ajax', 'ajpl', array(
 	    'ajaxurl'		=> admin_url( 'admin-ajax.php' ),
 	    'ajplNonce'		=> wp_create_nonce( 'ajpl-nonce' ),
-	    'before'    	=> false,
+	    //'before'    	=> false,
 	    'after'         => false
 	    )
 	);
